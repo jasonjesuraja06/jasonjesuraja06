@@ -1,18 +1,22 @@
-Third-year CS student at Georgia Tech. I build systems software and measure it honestly.
+# Hello, I am Jason Jesuraja! 👋
 
-### Projects
+## About me
 
-**[clockwork](https://github.com/jasonjesuraja06/clockwork)** - LLM inference engine for agent workloads. Continuous batching, a paged KV cache with copy-on-write, a radix-tree prefix cache, and a Triton paged-attention kernel behind an OpenAI-compatible API. Greedy decoding is token-exact against the Hugging Face reference, enforced in CI. Benchmarked against vLLM on a Tesla T4; every table names its hardware and links the raw CSVs.
-`Python` `PyTorch` `Triton` `FastAPI`
+I am a computer science student at the Georgia Institute of Technology,
+interested in backend engineering, AI infrastructure, and distributed systems.
+I enjoy working on difficult technical problems and learning how complex,
+large-scale systems are designed and built, down to the individual components
+that make them work.
 
-**[heartscreen](https://github.com/jasonjesuraja06/heartscreen)** - Arrhythmia discovery engine for wearable ECG. An 821k-parameter residual CNN in JAX/Flax scoring 0.8271 mean challenge F1 on the 8,528-record CinC 2017 set, wrapped in a screening pipeline that scans 1,961 recording-hours in 15.3 minutes and ranks candidate atrial fibrillation episodes.
-`Python` `JAX` `Flax` `SciPy`
+## Featured projects
 
-**[distributed-kv-store](https://github.com/jasonjesuraja06/distributed-kv-store)** - Raft consensus implemented from scratch in Go, with a replicated key-value store on top. Commit-before-acknowledge writes, linearizable reads through read-index, BoltDB persistence, joint-consensus membership, and a deterministic fault injector that kills leaders and partitions the network.
-`Go` `gRPC` `BoltDB` `Protocol Buffers`
+- **[clockwork](https://github.com/jasonjesuraja06/clockwork)** — an inference engine for large language models, built to explore continuous batching, paged key-value caching, and custom attention kernels
+- **[raftkv](https://github.com/jasonjesuraja06/raftkv)** — a distributed key-value store in Go, built to understand the Raft consensus protocol by implementing it in full
+- **[heartscreen](https://github.com/jasonjesuraja06/heartscreen)** — a JAX/Flax classifier and screening pipeline for detecting atrial fibrillation in wearable ECG recordings
+- **[ml-inference](https://github.com/jasonjesuraja06/ml-inference)** — a code-vulnerability classification pipeline covering training, quantization, and serving, benchmarked across CPU architectures
+- **[order-book-exchange](https://github.com/jasonjesuraja06/order-book-exchange)** — a C++17 limit order book and matching engine, built to study low-latency financial systems
 
-### How I work
+## Contact me
 
-Numbers in these repos come from a command that ran, recorded with the command that produced it. Where a result is unfavorable or a limitation exists, it is stated next to the number rather than omitted. Each repo ships its raw run artifacts as a release so a reader can check the tables against the data.
-
-Reach me at [linkedin.com/in/jason-jesuraja](https://linkedin.com/in/jason-jesuraja).
+- **Email** — [jjesuraja3@gatech.edu](mailto:jjesuraja3@gatech.edu)
+- **LinkedIn** — [jason-jesuraja](https://www.linkedin.com/in/jason-jesuraja/)
